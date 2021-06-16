@@ -1,6 +1,6 @@
 #%%
 import torch
-from .sct import screenshot
+from sct import screenshot
 from multiprocessing import Process, Queue
 
 # Model
