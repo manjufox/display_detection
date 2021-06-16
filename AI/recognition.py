@@ -1,7 +1,7 @@
 #%%
 import torch
 from sct import screenshot
-from multiprocessing import Process, Queue
+from multiprocessing import Queue
 
 # Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
