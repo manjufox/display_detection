@@ -2,7 +2,7 @@ import time
 from multiprocessing import Process, Queue
 
 from transparent_window import transparent_window
-from AI.yolo_recognition import yolo_loop
+from AI.recognition import yolo_loop
 
 def main():
     q = Queue()

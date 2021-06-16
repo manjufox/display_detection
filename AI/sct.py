@@ -7,7 +7,3 @@ def screenshot(monitor_number = 0,output="sct.png"):
         output = sct.shot(mon=monitor_number, output=output)
         
     return output
-# %%
-if __name__ == "__main__":
-    screenshot()
-# %%

@@ -38,7 +38,3 @@ def transparent_window(q:Queue):
             time.sleep(0.1)
         canvas.delete('o')
 
-
-# %%
-
-# %%
